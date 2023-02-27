@@ -48,7 +48,7 @@ nav {
 
 .navbar ul li a:hover {
 
-    font-size: 25px;
+   
     border-bottom: rgba(158, 219, 58, 1) 5px solid;
 }
 .navbar ul li .active {
