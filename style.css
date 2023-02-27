@@ -45,6 +45,7 @@ nav {
 
 }
 .navbar ul li a:hover {
+
     border-bottom: rgba(158, 219, 58, 1) 5px solid;
 }
 
