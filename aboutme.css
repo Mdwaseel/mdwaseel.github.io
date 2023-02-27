@@ -1,0 +1,544 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgba(32, 31, 31, 1);
+
+}
+
+nav {
+    display: flex;
+}
+
+.navbar {
+
+    margin: auto;
+
+}
+
+.navbar ul {
+    list-style: none;
+
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding-left: 5vw;
+    line-height: 6vw;
+}
+
+
+.navbar ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    color: #FFFFFF;
+    transition: all 0.1s ease 0.1s;
+
+
+}
+
+
+
+.navbar ul li a:hover {
+    font-size: 25px;
+    border-bottom: rgba(158, 219, 58, 1) 5px solid;
+}
+
+.navbar ul li .active {
+    border-bottom: rgba(158, 219, 58, 1) 5px solid;
+
+}
+
+
+.navimg img {
+    width: 78px;
+    height: 71px;
+    left: 51px;
+    top: 12px;
+    position: relative;
+}
+
+
+
+
+.hello {
+    color: white;
+    text-align: center;
+    line-height: 93px;
+    font-size: 20px;
+}
+
+.waseel {
+    color: #9EDB3A;
+    font-size: 39px;
+
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+
+    letter-spacing: 0.12em;
+}
+
+.list {
+    font-family: 'Open Sans', sans-serif;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.11em;
+    margin: auto;
+    width: 89%;
+
+    color: #FFFFFF;
+}
+
+.education {
+    line-height: 74px;
+}
+
+
+.education h2 {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 0.12em;
+
+    color: #9EDB3A;
+}
+
+.educationdtl {
+
+    margin: auto;
+    font-family: 'Noto Serif', serif;
+    width: 89%;
+ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 37px;
+
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.skills {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 98px;
+    text-align: center;
+    letter-spacing: 0.12em;
+
+    color: #9EDB3A;
+}
+
+.skilllist {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+
+    margin: auto;
+    width: 89%;
+
+}
+
+.exprience {
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 98px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #9EDB3A;
+
+}
+
+.experiencelist {
+    margin: auto;
+    width: 89%;
+    line-height: 33px;
+    padding-bottom: 23px;
+
+}
+
+.exphead {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 0.12em;
+    color: #FFFFFF;
+}
+
+.dates {
+    position: absolute;
+    right: 35px;
+}
+
+.experiencelist p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 0.12em;
+    color: rgb(143 149 145)
+}
+
+
+div:empty {
+    width: 100%;
+    height: 11px;
+    background-color: #9edb3a;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .navimg img {
+        width: 60px;
+        height: 59px;
+        left: 33px;
+        top: 12px;
+        position: relative;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 21px;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+        transition: all 0.1s ease 0.1s;
+    }
+
+    .hello {
+        color: white;
+        text-align: center;
+        line-height: 93px;
+        font-size: 19px;
+    }
+
+    .waseel {
+        color: #9EDB3A;
+        font-size: 38px;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: 0.12em;
+    }
+
+    .education h2 {
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        color: #9EDB3A;
+    }
+
+    .skills {
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 98px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        color: #9EDB3A;
+    }
+
+    .list {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 33px;
+        letter-spacing: 0.11em;
+        margin: auto;
+        width: 89%;
+        color: #FFFFFF;
+    }
+
+    .educationdtl {
+        margin: auto;
+        width: 89%;
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 37px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+    }
+
+    .skilllist {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 31px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+        margin: auto;
+        width: 89%;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .navimg img {
+        width: 53px;
+        height: 55px;
+        left: 11px;
+        top: 12px;
+        position: relative;
+    }
+
+    .navbar ul li a {
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+        transition: all 0.1s ease 0.1s;
+    }
+
+    .hello {
+        color: white;
+        text-align: center;
+        line-height: 101px;
+        font-size: 14px;
+    }
+
+    .waseel {
+        color: #9EDB3A;
+        font-size: 35px;
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 46px;
+        letter-spacing: 0.12em;
+    }
+
+    .list {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 21px;
+        line-height: 33px;
+        letter-spacing: 0.11em;
+        margin: auto;
+        width: 89%;
+        color: #FFFFFF;
+    }
+
+    .educationdtl {
+        margin: auto;
+        width: 89%;
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 37px;
+        letter-spacing: 0.12em;
+    }
+
+    .skills {
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 98px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        color: #9EDB3A;
+    }
+
+    .skilllist {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 31px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+        margin: auto;
+        width: 89%;
+    }
+
+    .exprience {
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 98px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        color: #9EDB3A;
+    }
+
+    .exphead {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        line-height: 33px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+    }
+
+    .experiencelist p {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 0.12em;
+        color: rgb(143 149 145);
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 414px) {
+    .navimg img {
+        width: 53px;
+        height: 55px;
+        left: 11px;
+        top: 4px;
+        position: relative;
+    }
+
+    .hello {
+        color: white;
+        text-align: center;
+        line-height: 93px;
+        font-size: 12px;
+    }
+
+    .waseel {
+        color: #9EDB3A;
+        font-size: 31px;
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: 0.12em;
+    }
+
+    .list {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 33px;
+        letter-spacing: 0.11em;
+        margin: auto;
+        width: 89%;
+        color: #FFFFFF;
+    }
+
+    .education h2 {
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        color: #9EDB3A;
+    }
+
+    .educationdtl {
+        margin: auto;
+        width: 89%;
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 37px;
+        letter-spacing: 0.12em;
+    }
+
+    .skills {
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 98px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        color: #9EDB3A;
+    }
+
+    .skilllist {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 31px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+        margin: auto;
+        width: 89%;
+    }
+
+    .exprience {
+        font-family: 'Noto Serif', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 98px;
+        text-align: center;
+        letter-spacing: 0.12em;
+        color: #9EDB3A;
+    }
+
+    .exphead {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 29px;
+        letter-spacing: 0.12em;
+        color: #FFFFFF;
+    }
+
+    .experiencelist p {
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 0.12em;
+        color: rgb(143 149 145);
+    }
+
+}
+
+
