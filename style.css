@@ -497,4 +497,9 @@ main::before {
         width: 57vw;
         top: 150vw;
     }
+    .navbar ul li {
+        display: inline-block;
+        padding-left: 16vw;
+        line-height: 8vw;
+    }
 }
