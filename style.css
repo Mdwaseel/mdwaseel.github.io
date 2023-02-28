@@ -360,7 +360,7 @@ main::before {
 
     .connectbar {
         background-color: #9EDB3A;
-        width: 54vw;
+        width: 55%;
         border-radius: 10px;
         text-align: center;
         position: absolute;
@@ -453,7 +453,7 @@ main::before {
     .connectbar {
         left: 22vw;
         top: 147vw;
-        width: 53vw;
+        width: 55%;
     }
     .connectbar h2 {
         font-family: 'Open Sans';
