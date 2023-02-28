@@ -494,7 +494,7 @@ main::before {
 @media screen and (max-width: 390px){
     .connectbar {
         left: 21vw;
-        width: 57vw;
+        width: 59vw;
         top: 150vw;
     }
     .navbar ul li {
