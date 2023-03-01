@@ -110,7 +110,8 @@ nav {
     line-height: 33px;
     letter-spacing: 0.09em;
     
-  color: rgb(22, 22, 22);
+  color: rgb(22, 22, 22)
+  ;
 }
 .boxdes{
     padding: 12px 11px;
