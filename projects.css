@@ -113,6 +113,7 @@ font-size: 24px;
     padding: 0 6px;
     float: left;
     width: 24.99999%;
+    cursor: pointer;
   }
 
   .box:hover{
