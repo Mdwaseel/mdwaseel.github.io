@@ -90,7 +90,9 @@ nav {
         top: 14px;
         color: white;
     }
- 
+    #fa-black{
+        color: black;
+    }
 
 
 .box img{
