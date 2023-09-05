@@ -10,32 +10,57 @@
     <script src="https://kit.fontawesome.com/fa7f891486.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="/aboutme.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="p-4">
+            <div class="absolute md:w-[6%] w-[8%] top- 1 left-4">
+                <img src="/Imgs/logo.png"  alt="">
 
-            <div class="navimg">
-                <a href="/index.html">
-                    <img src="/Imgs/logo.png" alt="">
+            </div>
+            <div class="max-w-7xl  flex-col mx-auto flex items-center justify-between">
+                <div class="hidden absolute top-8 md:flex space-x-10 text-xl font-bold justify-center place-content-center">
+                    <a href="/index.html" class="text-white nav-link ">Home</a>
+                    <a href="/aboutme.html" class="text-white nav-link active">About</a>
+                    <a href="/projects.html" class="text-white nav-link">Projects</a>
+                    <a href="/achievements.html" class="text-white nav-link">Achievements</a>
+                </div>
 
+                <div class="md:hidden container absolute top-5 right-6 cursor-pointer">
+
+
+
+                    <!-- Hamburger SVG -->
+                    <svg class="w-9 h-9 absolute right-1 text-[#9edb3a]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <!-- Close button -->
+            <div class="close-button">
+                <a href="#" id="close-menu-button">
+                    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
                 </a>
-
-
-
-
-
             </div>
-            <div class="navbar">
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/aboutme.css" class="active">About Me</a></li>
-                    <li><a href="/projects.html">Projects</a></li>
-                    <li><a href="/achievements.html">Achievements</a></li>
-                </ul>
-            </div>
+            <a href="/index.html" >Home</a>
+            <a href="/aboutme.html" style="color: #9EDB3A;">About</a>
+            <a href="/projects.html">Projects</a>
+            <a href="/achievements.html">Achievements</a>
+        </div>
     </header>
+
+
 
     <main>
 
@@ -162,5 +187,19 @@
     </main>
 
 </body>
+<script>
+    const open = document.querySelector('.md\\:hidden.container');
 
+
+       const close = document.querySelector('.close-button');
+       const mobileMenu = document.querySelector('.mobile-menu');
+
+       open.addEventListener('click', () => {
+           mobileMenu.classList.add('active');
+       });
+
+       close.addEventListener('click', () => {
+           mobileMenu.classList.remove('active');
+       });
+</script>
 </html>
